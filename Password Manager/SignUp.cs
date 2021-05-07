@@ -13,6 +13,7 @@ namespace Password_Manager
     public partial class SignUp : Form
     {
         public string userpassword,userconfirmpassword;
+        Hash sh = new Hash();
         public SignUp()
         {
             InitializeComponent();
@@ -33,7 +34,7 @@ namespace Password_Manager
                
                 if (Password.Text == ConfiemPassword.Text)
                 {
-                    ql.AddUser(Username.Text, Password.Text);
+                    ql.AddUser(Username.Text,sh.passHash(Password.Text));
                 }
                 else
                 {

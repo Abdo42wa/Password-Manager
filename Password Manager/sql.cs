@@ -11,8 +11,6 @@ namespace Password_Manager
     class sql
     {
         private SqlConnection conn;
-       
-
 
         //ServerConnection Server = new ServerConnection();
 

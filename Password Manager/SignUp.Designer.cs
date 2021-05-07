@@ -74,10 +74,9 @@
             // 
             this.Password.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Password.Location = new System.Drawing.Point(230, 182);
-            this.Password.Multiline = true;
             this.Password.Name = "Password";
             this.Password.PasswordChar = '6';
-            this.Password.Size = new System.Drawing.Size(226, 36);
+            this.Password.Size = new System.Drawing.Size(226, 29);
             this.Password.TabIndex = 9;
             this.Password.UseSystemPasswordChar = true;
             // 
@@ -114,10 +113,9 @@
             // 
             this.ConfiemPassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ConfiemPassword.Location = new System.Drawing.Point(230, 245);
-            this.ConfiemPassword.Multiline = true;
             this.ConfiemPassword.Name = "ConfiemPassword";
             this.ConfiemPassword.PasswordChar = '6';
-            this.ConfiemPassword.Size = new System.Drawing.Size(226, 36);
+            this.ConfiemPassword.Size = new System.Drawing.Size(226, 29);
             this.ConfiemPassword.TabIndex = 14;
             this.ConfiemPassword.UseSystemPasswordChar = true;
             // 
